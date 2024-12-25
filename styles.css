@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: url('zaalima2.jpg') no-repeat center center fixed; /* Background image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  color: #f4f4f4; /* Light text color for contrast */
+}
+
+/* Header */
+header {
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Header shadow */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main Content */
+main {
+  padding: 2rem;
+}
+
+section {
+  margin: 2rem 0;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for sections */
+}
+
+/* Portfolio Gallery */
+.portfolio-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.portfolio-item {
+  background: rgba(255, 255, 255, 0.2); /* Transparent white */
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent black */
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); /* Footer shadow */
+}
+
+/* Links Hover Effect */
+header nav ul li a:hover,
+.portfolio-item:hover {
+  color: #ffd700; /* Golden text color on hover */
+  cursor: pointer;
+}
+
+/* Contact Form */
+form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8); /* Light background */
+  color: #333;
+}
+
+form button {
+  background: #4e4376; /* Button matches the theme */
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #2b5876; /* Slightly darker on hover */
+}
